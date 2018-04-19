@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    android:orientation="vertical"
+    tools:context="android.michael.project1.main.LoginPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/optionbtn"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:background="@drawable/optionbtn3"
+                android:paddingTop="13dp"
+                android:text="For your interview !"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/java"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/optionbtn2"
+                android:drawableLeft="@drawable/mynjub"
+                android:onClick="mClick"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="  예상 질문"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="21sp" />
+
+            <Button
+                android:id="@+id/sourcecode"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/optionbtn2"
+                android:drawableStart="@drawable/ic_sort_black_24dp"
+                android:onClick="mClick"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="  소스 코드"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/java3"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/optionbtn2"
+                android:drawableStart="@drawable/ic_lightbulb_outline_black_24dp"
+                android:onClick="mClick"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="  선생님"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="21sp" />
+
+            <Button
+                android:id="@+id/Qrcode"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/optionbtn2"
+                android:drawableStart="@drawable/ic_photo_camera_black_24dp"
+                android:onClick="mClick"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="  QR"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
